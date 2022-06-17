@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FF7978 url(./images/bg-intro-desktop.png);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight:bold;
+    line-height: 1.2em;
+    margin-bottom: 30px;
+}
+
+.side_bar{
+    margin: 30px;
+    padding-right: 20px;
+    color: white;
+    flex-direction: row;    
+}
+
+
+
+.form_container{
+    flex-direction: row;
+    box-shadow: 0 7px rgba(0, 0, 0, 0.096);
+    
+    /* background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px #ccc; */
+}
+.form_heading{
+    margin: 20px 0;
+    background-color: #5D54A3 ;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.096); 
+}
+
+.main_form{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.096);
+    text-align: center;
+    padding: 20px 5px 5px 5px;
+    margin-bottom: 30px;
+}
+
+input {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    font-family: "Poppins";
+    
+}
+
+.button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+    background-color: #37CC8A;
+    color: white;
+    text-transform: uppercase;
+    width: 90%;
+    box-shadow: 0 5px rgba(1, 59, 40, 0.26);
+    cursor: pointer;
+}
+
+form p{
+    color: #ccc;
+    font-size: 10px;
+    margin: 10px;
+}
+.highlight {
+    color: red;
+    font-weight: 700;
+}
+
+.button:active{
+    background-color: #61ffb5;
+    box-shadow: 0 5px rgba(1, 59, 40, 0.26);
+}
+
+@media screen and (max-width:800px) {
+    body{
+        background: #FF7978 url(./images/bg-intro-mobile.png);
+    }    
+    .container{
+        display: block;
+        text-align: center;        
+    }
+
+    .container h1{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .form_heading{
+        padding: 20px 80px;
+    }
+}
+
+
+
+
+/* 
+5D54A3
+37CC8A */
